@@ -35,7 +35,7 @@ var orm = {
       cb(result);
     });
   },
-  insertOne: function(whatToSelect, table, orderCol) {
+  insertOne: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
     queryString += " (";
