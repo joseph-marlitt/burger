@@ -1,0 +1,38 @@
+#wrapper {
+	min-height: 100%;
+	margin-bottom: -145px;
+	margin: auto;
+	max-width: 960px;
+	width: 100%;
+	overflow: auto;
+}
+#create-div {
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+#burger-container {
+    width: 100%
+}
+div:empty {
+    display: none;
+ }
+ #true {
+     width: 50%;
+     float: left
+ }
+ #true:empty {
+    display: none;
+ }
+ #eaten {
+     width: 50%;
+     float: left
+ }
+ #eaten:empty {
+    display: none;
+ }
